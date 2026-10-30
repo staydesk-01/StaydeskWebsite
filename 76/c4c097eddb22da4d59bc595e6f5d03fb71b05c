@@ -1,0 +1,191 @@
+.claude/launch.json
+  s_96345eed35b501::t_8cfd8d3eb9eaee 1
+.env.example
+  s_96345eed35b501::t_d08c9dbbda12e3 1-10
+.gitignore
+  s_96345eed35b501::t_1628a7be66258d 1-5
+README.md
+  s_96345eed35b501::t_527d87b9a8b00d 1-26
+app/api/careers/route.ts
+  s_96345eed35b501::t_5dd2be55c3a48b 1-6
+app/api/contact/route.ts
+  s_96345eed35b501::t_db138defa009ef 1-6
+app/api/demo/route.ts
+  s_96345eed35b501::t_83df827d2b5372 1-6
+app/api/early-access/route.ts
+  s_96345eed35b501::t_c2602edbfab13e 1-6
+app/api/health/route.ts
+  s_96345eed35b501::t_adf41c4e4ffb4f 1-21
+app/automation/page.tsx
+  s_96345eed35b501::t_e2333f2ce27ea8 1-34
+app/careers/page.tsx
+  s_96345eed35b501::t_2734c094359062 1-42
+app/company/page.tsx
+  s_96345eed35b501::t_a574c98cfe24a7 1-36
+app/contact/page.tsx
+  s_96345eed35b501::t_7a4c78b86e66f7 1-18
+app/demo/page.tsx
+  s_96345eed35b501::t_a0c6ea01a45da0 1-17
+app/early-access/page.tsx
+  s_96345eed35b501::t_9e2c28a8d4c46f 1-23
+app/globals.css
+  s_96345eed35b501::t_398dcfb70948bb 1-79
+app/how-it-works/page.tsx
+  s_96345eed35b501::t_d61e3f838c1b82 1-24
+app/icon.svg
+  s_96345eed35b501::t_dd4f76fb7fa00c 1
+app/industries/page.tsx
+  s_96345eed35b501::t_de835d58d1e60c 1-22
+app/layout.tsx
+  s_96345eed35b501::t_4f2b1c8a769358 1-37
+app/meeting/page.tsx
+  s_96345eed35b501::t_f426eddaef9c00 1-20
+app/opengraph-image.tsx
+  s_96345eed35b501::t_6bff30e90cb4b1 1-18
+app/page.tsx
+  s_96345eed35b501::t_da8567674d5e2d 1-35
+app/product/page.tsx
+  s_96345eed35b501::t_156b5a932dbddb 1-26
+app/robots.ts
+  s_96345eed35b501::t_ba0522c602129d 1-5
+app/sign-in/page.tsx
+  s_96345eed35b501::t_bd7abceb50387c 1-16
+app/sitemap.ts
+  s_96345eed35b501::t_2a63ce667dc338 1-6
+app/voice/page.tsx
+  s_96345eed35b501::t_19b51dd7fae2e6 1-37
+components/CareersForm.tsx
+  s_96345eed35b501::t_919741754c9a9f 1-29
+components/ContactForm.tsx
+  s_96345eed35b501::t_7c5c1a6eccf3b2 1-28
+components/DemoForm.tsx
+  s_96345eed35b501::t_efbb5ece1b90ed 1-29
+components/EarlyAccessForm.tsx
+  s_96345eed35b501::t_5f402fe5dfcb44 1-32
+components/ScheduleMeeting.tsx
+  s_96345eed35b501::t_f01386bd7ec5fc 1-136
+components/TalkToTeam.tsx
+  s_96345eed35b501::t_51556de817d5b5 1-19
+components/TrackingCapture.tsx
+  s_96345eed35b501::t_030e6bd1626609 1-9
+components/home/AutomationModes.tsx
+  s_96345eed35b501::t_d069ac90e8b77d 1-44
+components/home/CTA.tsx
+  s_96345eed35b501::t_091d35278783bc 1-21
+components/home/Capabilities.tsx
+  s_96345eed35b501::t_2cb82c35ab6f63 1-17
+components/home/ConversationToAction.tsx
+  s_96345eed35b501::t_4b60ed16682715 1-66
+components/home/DashboardPreview.tsx
+  s_96345eed35b501::t_7f32b55790b841 1-57
+components/home/ExistingPhone.tsx
+  s_96345eed35b501::t_3c2b1c47ea3a29 1-32
+components/home/GlobalVision.tsx
+  s_96345eed35b501::t_4a69669aba50b1 1-17
+components/home/Hero.tsx
+  s_96345eed35b501::t_ecde6b81cc13e7 1-122
+components/home/HowItWorks.tsx
+  s_96345eed35b501::t_2c43988a2ce04c 1-22
+components/home/HumanAI.tsx
+  s_96345eed35b501::t_dc2d9572ac2c9f 1-26
+components/home/Industries.tsx
+  s_96345eed35b501::t_be92a7c877a643 1-18
+components/home/LiveCallCard.tsx
+  s_96345eed35b501::t_ca63cfe3897cf8 1-83
+components/home/OwnerVisibility.tsx
+  s_96345eed35b501::t_16c7acda779306 1-29
+components/home/Problem.tsx
+  s_96345eed35b501::t_dcc64da2b8ad03 1-28
+components/home/Speed.tsx
+  s_96345eed35b501::t_ab9afbb68efcb1 1-27
+components/layout/Footer.tsx
+  s_96345eed35b501::t_f7384143036792 1-38
+components/layout/Logo.tsx
+  s_96345eed35b501::t_349bf8137a832c 1-9
+components/layout/Navbar.tsx
+  s_96345eed35b501::t_169f94029bbff0 1-97
+components/ui/Button.tsx
+  s_96345eed35b501::t_e98452239234fb 1-26
+components/ui/DemoBadge.tsx
+  s_96345eed35b501::t_64b9769608da9f 1-7
+components/ui/FeatureCard.tsx
+  s_96345eed35b501::t_f2f33ee9efb85b 1-11
+components/ui/FormSuccess.tsx
+  s_96345eed35b501::t_f463f4cba6234c 1-11
+components/ui/IndustryCard.tsx
+  s_96345eed35b501::t_3379f5347d3a4e 1-15
+components/ui/LeadForm.tsx
+  s_96345eed35b501::t_c65dc6c3e18195 1-113
+components/ui/PageHeader.tsx
+  s_96345eed35b501::t_a9b16f7f8fbccf 1-16
+components/ui/Reveal.tsx
+  s_96345eed35b501::t_796d9b18079b3b 1-21
+components/ui/Section.tsx
+  s_96345eed35b501::t_348f0eabf9c19f 1-24
+components/ui/SignInForm.tsx
+  s_96345eed35b501::t_bb7fdae8271b97 1-38
+components/ui/Waveform.tsx
+  s_96345eed35b501::t_9579f4b14754d0 1-19
+config/site.ts
+  s_96345eed35b501::t_36a830ff7eb88a 1-12
+lib/api/email.ts
+  s_96345eed35b501::t_0dcfa2113e691e 1-28
+lib/api/handler.ts
+  s_96345eed35b501::t_fbc326871ebfd2 1-100
+lib/api/rate-limit.ts
+  s_96345eed35b501::t_4ef6a68c50b329 1-15
+lib/auth.ts
+  s_96345eed35b501::t_14d718f7922b1e 1-10
+lib/content.ts
+  s_96345eed35b501::t_2d3300d30ff4b0 1-56
+lib/forms.ts
+  s_96345eed35b501::t_0668fe38abecf2 1-23
+lib/mongodb.ts
+  s_96345eed35b501::t_cab3a384f28088 1-33
+lib/options.ts
+  s_96345eed35b501::t_05f91f1fdce6d7 1-16
+lib/site.ts
+  s_96345eed35b501::t_0688325a9ce42e 1-39
+lib/tracking.ts
+  s_96345eed35b501::t_c144f15c13d756 1-32
+lib/validation.ts
+  s_96345eed35b501::t_703b4c444eff60 1-124
+models/CareerInterest.ts
+  s_96345eed35b501::t_d462b2a58a7819 1-21
+models/Contact.ts
+  s_96345eed35b501::t_4a86e819b76e54 1-17
+models/DemoRequest.ts
+  s_96345eed35b501::t_b8315d786a86ec 1-20
+models/EarlyAccess.ts
+  s_96345eed35b501::t_fd1465bd33a1a7 1-23
+models/Newsletter.ts
+  s_96345eed35b501::t_36de5a101558ec 1-15
+models/_shared.ts
+  s_96345eed35b501::t_bd05f6813327ca 1-29
+next.config.ts
+  s_96345eed35b501::t_2d348a4081cd0d 1-9
+package-lock.json
+  s_96345eed35b501::t_995428fccf090d 1-2403
+package.json
+  s_96345eed35b501::t_a94c9cc25f2204 1-28
+postcss.config.mjs
+  s_96345eed35b501::t_6fb662aa76accb 1-2
+tsconfig.json
+  s_96345eed35b501::t_3a936454a4bab7 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "76c4c097eddb22da4d59bc595e6f5d03fb71b05c",
+  "prompts": {},
+  "sessions": {
+    "s_96345eed35b501": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7261ce2f-edbb-419a-ad19-47c6969cdf3c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Sai Karthik Gutha <saikarthikgutha@Guthas-MacBook-Air.local>"
+    }
+  }
+}
