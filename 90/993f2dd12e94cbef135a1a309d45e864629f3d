@@ -1,0 +1,19 @@
+README.md
+  s_96345eed35b501::t_3bdb31a9d53000 3-9,12,17-38,40,50,52,56-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "90993f2dd12e94cbef135a1a309d45e864629f3d",
+  "prompts": {},
+  "sessions": {
+    "s_96345eed35b501": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7261ce2f-edbb-419a-ad19-47c6969cdf3c",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Sai Karthik Gutha <saikarthikgutha@Guthas-MacBook-Air.local>"
+    }
+  }
+}
