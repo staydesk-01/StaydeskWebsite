@@ -11,11 +11,11 @@ const sans = Instrument_Sans({ subsets: ["latin"], variable: "--font-instrument"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: SITE.title, template: "%s | StayDesk" },
+  title: { default: SITE.title, template: "%s | TrulyHello" },
   description: SITE.description,
-  applicationName: "StayDesk",
+  applicationName: "TrulyHello",
   openGraph: {
-    type: "website", siteName: "StayDesk", title: SITE.title, description: SITE.description, url: "/",
+    type: "website", siteName: "TrulyHello", title: SITE.title, description: SITE.description, url: "/",
   },
   twitter: { card: "summary_large_image", title: SITE.title, description: SITE.description },
   icons: { icon: "/icon.svg" },

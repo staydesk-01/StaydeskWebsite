@@ -43,8 +43,8 @@ export const INDUSTRIES: Industry[] = [
 
 export const WORKFLOW_STEPS = [
   { title: "Customer calls", body: "Calls reach your existing business number as they always have." },
-  { title: "Your team gets first chance", body: "If someone's free, they answer. StayDesk stays out of the way." },
-  { title: "StayDesk takes over", body: "If staff are busy, unavailable or it's after hours, StayDesk picks up." },
+  { title: "Your team gets first chance", body: "If someone's free, they answer. TrulyHello stays out of the way." },
+  { title: "TrulyHello takes over", body: "If staff are busy, unavailable or it's after hours, TrulyHello picks up." },
   { title: "Understands the request", body: "It works out what the customer needs and draws on your business knowledge." },
   { title: "Takes approved action", body: "It captures details, books, requests or schedules, only within your rules." },
   { title: "Updates and notifies", body: "Your systems are updated, your team is alerted, and the outcome is recorded." },

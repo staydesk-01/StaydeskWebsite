@@ -102,7 +102,7 @@ export const careersSchema = z.object({
   location: optional(120),
   areaOfInterest: required("Area of interest", 80),
   experience: optional(80),
-  whyStayDesk: required("This field", 3000).pipe(z.string().min(10, "Please tell us a little more.")),
+  whyTrulyHello: required("This field", 3000).pipe(z.string().min(10, "Please tell us a little more.")),
   resumeUrl: url(false, "Resume URL"),
 });
 

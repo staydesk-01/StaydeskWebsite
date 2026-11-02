@@ -10,7 +10,7 @@ export function EarlyAccessForm() {
     <LeadForm formKey="early-access" endpoint="/api/early-access" defaultSource="early-access" submitLabel="Request Early Access"
       success={() => (
         <FormSuccess title="Thanks — we received your request." body="We'll be in touch soon. If you'd like to move faster, pick a time to talk.">
-          <ScheduleMeeting title="Book a Demo" description="See StayDesk in action." buttonLabel="Book a Demo" />
+          <ScheduleMeeting title="Book a Demo" description="See TrulyHello in action." buttonLabel="Book a Demo" />
           <ScheduleMeeting variant="ghost" title="Schedule a Meeting" buttonLabel="Schedule a Meeting" />
         </FormSuccess>
       )}

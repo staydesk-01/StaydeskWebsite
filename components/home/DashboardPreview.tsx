@@ -11,12 +11,12 @@ const STATS = [
 export function DashboardPreview() {
   return (
     <Section id="dashboard" eyebrow="Dashboard preview" title="See every call, outcome and next step."
-      intro="A prototype of the StayDesk workspace for owners and managers. All figures shown are sample data.">
+      intro="A prototype of the TrulyHello workspace for owners and managers. All figures shown are sample data.">
       <Reveal>
         <div className="overflow-hidden rounded-3xl border border-mist/12 bg-graphite shadow-[0_30px_100px_rgba(0,0,0,.5)]">
           <div className="flex items-center gap-2 border-b border-mist/10 px-4 py-3">
             <span className="size-2.5 rounded-full bg-mist/20" /><span className="size-2.5 rounded-full bg-mist/20" /><span className="size-2.5 rounded-full bg-mist/20" />
-            <span className="ml-3 text-xs text-mist/45">app.staydesk.com / overview</span>
+            <span className="ml-3 text-xs text-mist/45">app.trulyhello.com / overview</span>
             <span className="ml-auto"><DemoBadge /></span>
           </div>
           <div className="grid md:grid-cols-[210px_1fr]">

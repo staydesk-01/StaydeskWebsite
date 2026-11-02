@@ -1,4 +1,4 @@
-# StayDesk website
+# TrulyHello website
 
 Next.js (App Router) + Tailwind + Framer Motion, with form backends in the same app.
 

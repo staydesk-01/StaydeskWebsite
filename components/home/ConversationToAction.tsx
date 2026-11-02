@@ -26,7 +26,7 @@ function Connector({ vertical = false }: { vertical?: boolean }) {
 export function ConversationToAction() {
   return (
     <Section id="action" eyebrow="From conversation to action" title="A call doesn't end with a call."
-      intro="StayDesk follows each conversation all the way through, from what the customer said to what actually got done.">
+      intro="TrulyHello follows each conversation all the way through, from what the customer said to what actually got done.">
       <Reveal>
         <div className="card p-6 md:p-10">
           <div className="flex flex-col items-center gap-0 xl:flex-row xl:justify-between">

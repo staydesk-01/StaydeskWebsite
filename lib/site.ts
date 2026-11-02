@@ -31,8 +31,6 @@ export const FOOTER_GROUPS = [
     links: [
       { href: "/company", label: "Our story" },
       { href: "/careers", label: "Careers" },
-      { href: "/contact", label: "Contact" },
-      { href: "/early-access", label: "Early access" },
       { href: "/sign-in", label: "Sign in" },
     ],
   },

@@ -50,13 +50,6 @@ export function Navbar() {
         </ul>
         <div className="hidden items-center gap-3 xl:flex">
           <Link href="/sign-in" className="px-3 py-2 text-sm text-mist/70 transition-colors hover:text-mist">Sign in</Link>
-          <Link href="/demo?source=navbar" className="px-3 py-2 text-sm text-mist/70 transition-colors hover:text-mist">Book a Demo</Link>
-          <Link
-            href="/early-access"
-            className="rounded-full bg-gradient-to-br from-[#a67a4e] to-brass-deep px-5 py-2.5 text-sm font-medium text-white transition-all hover:shadow-[0_6px_22px_rgba(185,143,98,.35)]"
-          >
-            Request Early Access
-          </Link>
         </div>
         <button
           type="button"
@@ -78,18 +71,9 @@ export function Navbar() {
               </li>
             ))}
             <li className="border-b border-mist/10">
-              <Link href="/demo?source=navbar" className="block py-4 font-serif text-2xl text-mist">Book a Demo</Link>
-            </li>
-            <li className="border-b border-mist/10">
               <Link href="/sign-in" className="block py-4 font-serif text-2xl text-mist/70">Sign in</Link>
             </li>
           </ul>
-          <Link
-            href="/early-access"
-            className="mt-8 flex justify-center rounded-full bg-gradient-to-br from-[#a67a4e] to-brass-deep px-6 py-4 font-medium text-white"
-          >
-            Request Early Access
-          </Link>
         </div>
       )}
     </header>

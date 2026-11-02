@@ -7,11 +7,11 @@ export function ExistingPhone() {
   const rows = [
     { icon: PhoneCall, t: "Customer calls your business number", d: "Nothing changes for your customers." },
     { icon: Users, t: "Your team rings first", d: "If someone's free, they answer as usual." },
-    { icon: AudioLines, t: "StayDesk steps in", d: "Only when staff are busy, unavailable or it's after hours." },
+    { icon: AudioLines, t: "TrulyHello steps in", d: "Only when staff are busy, unavailable or it's after hours." },
   ];
   return (
     <Section id="existing-phone" eyebrow="Works with how you already operate" title="Keep your business phone. Add a safety net."
-      intro="The concept: your existing number stays your number. StayDesk is the fallback that makes sure important calls aren't missed.">
+      intro="The concept: your existing number stays your number. TrulyHello is the fallback that makes sure important calls aren't missed.">
       <Reveal>
         <div className="card p-6 md:p-8">
           <div className="mb-6"><DemoBadge label="Prototype concept" /></div>

@@ -8,11 +8,11 @@ const MODES = [
     points: ["Answers questions and captures information", "Creates tasks and follow-ups", "Transfers to a person when necessary", "Human completes sensitive actions"],
   },
   {
-    icon: Zap, tag: "Autonomous AI", title: "For actions you approve, StayDesk finishes the job.",
+    icon: Zap, tag: "Autonomous AI", title: "For actions you approve, TrulyHello finishes the job.",
     points: ["Handles the conversation", "Checks your business systems", "Executes approved actions and completes the task", "Sends confirmation and updates the dashboard"], featured: true,
   },
   {
-    icon: SlidersHorizontal, tag: "Custom Automation", title: "You decide exactly what StayDesk is allowed to do.",
+    icon: SlidersHorizontal, tag: "Custom Automation", title: "You decide exactly what TrulyHello is allowed to do.",
     points: ["Choose which actions are automatic", "Keep sensitive steps with your team", "Change the rules as your business changes", "You stay in control, always"],
   },
 ];
@@ -20,7 +20,7 @@ const MODES = [
 export function AutomationModes() {
   return (
     <Section id="modes" tone="graphite" eyebrow="Two ways to work" title="Assist when you want help. Autonomous when you want it done."
-      intro="Start with StayDesk handling conversations, then approve it to complete more as trust grows.">
+      intro="Start with TrulyHello handling conversations, then approve it to complete more as trust grows.">
       <div className="grid gap-5 lg:grid-cols-3">
         {MODES.map((m, i) => (
           <Reveal key={m.tag} delay={i * 0.1} className="h-full">

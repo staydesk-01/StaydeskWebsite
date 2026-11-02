@@ -23,7 +23,7 @@ export function SignInForm() {
       {notice && (
         <p role="status" className="rounded-xl bg-brass/10 p-3 text-sm text-brass-soft">
           {notice === "signin"
-            ? "The StayDesk workspace isn't open yet, so sign-in isn't available."
+            ? "The TrulyHello workspace isn't open yet, so sign-in isn't available."
             : "Password reset isn't available yet because accounts aren't open."}{" "}
           <Link href="/early-access" className="underline">Request access</Link> and we&apos;ll let you know when it is.
         </p>

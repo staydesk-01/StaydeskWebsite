@@ -22,7 +22,7 @@ export function CareersForm() {
         { name: "location", label: "Location" },
         { name: "areaOfInterest", label: "Area of interest", type: "select", required: true, options: CAREER_AREAS },
         { name: "experience", label: "Experience", type: "select", options: EXPERIENCE_OPTIONS },
-        { name: "whyStayDesk", label: "Why StayDesk?", type: "textarea", required: true },
+        { name: "whyTrulyHello", label: "Why TrulyHello?", type: "textarea", required: true },
         { name: "resumeUrl", label: "Resume URL (optional)", type: "url" },
       ]} />
   );

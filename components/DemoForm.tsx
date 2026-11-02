@@ -11,7 +11,7 @@ export function DemoForm() {
       success={() => (
         <FormSuccess title="Request received. Now choose a time." body="Your details are saved. Pick a slot that works for you in the scheduler.">
           {/* Opens right away so the flow continues straight into scheduling. */}
-          <ScheduleMeeting defaultOpen title="Schedule Your Demo" description="Choose a time for your StayDesk demo." buttonLabel="Choose a Time" />
+          <ScheduleMeeting defaultOpen title="Schedule Your Demo" description="Choose a time for your TrulyHello demo." buttonLabel="Choose a Time" />
         </FormSuccess>
       )}
       fields={[

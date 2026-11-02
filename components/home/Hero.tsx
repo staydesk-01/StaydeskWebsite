@@ -84,12 +84,10 @@ export function Hero() {
               Turn every conversation into opportunity.
             </p>
             <p className="mt-6 max-w-[40rem] text-[clamp(1rem,1.5vw,1.2rem)] leading-relaxed text-mist/80">
-              StayDesk helps businesses handle important customer calls when their teams are busy, unavailable or after hours, then turns those conversations into leads, bookings, appointments, service requests and follow-ups.
+              TrulyHello helps businesses handle important customer calls when their teams are busy, unavailable or after hours, then turns those conversations into leads, bookings, appointments, service requests and follow-ups.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button href="/early-access">Request Early Access</Button>
               <Button href="/how-it-works" variant="ghost" arrow={false}>See How It Works</Button>
-              <Button href="/demo?source=hero" variant="ghost" arrow={false}>Book a Demo</Button>
             </div>
           </div>
           <LiveCallCard className="lg:mb-1" />

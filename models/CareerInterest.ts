@@ -12,7 +12,7 @@ const schema = makeSchema(
     location: String,
     areaOfInterest: { type: String, required: true },
     experience: String,
-    whyStayDesk: { type: String, required: true },
+    whyTrulyHello: { type: String, required: true },
     resumeUrl: String,
   },
   CAREER_STATUSES,

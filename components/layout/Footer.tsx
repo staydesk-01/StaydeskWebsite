@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { TalkToTeam } from "@/components/TalkToTeam";
+import { siteConfig } from "@/config/site";
 import { Logo } from "./Logo";
 import { FOOTER_GROUPS } from "@/lib/site";
 
@@ -23,14 +23,16 @@ export function Footer() {
                 </li>
               ))}
               {g.title === "Company" && (
-                <li><TalkToTeam variant="link" /></li>
+                <li>
+                  <a href={`mailto:${siteConfig.email}`} className="break-all text-sm text-mist/70 transition-colors hover:text-mist">{siteConfig.email}</a>
+                </li>
               )}
             </ul>
           </div>
         ))}
       </div>
       <div className="mx-auto mt-14 flex max-w-[1240px] flex-col gap-2 border-t border-mist/10 pt-6 text-xs text-mist/45 sm:flex-row sm:justify-between">
-        <p>© {new Date().getFullYear()} StayDesk. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} TrulyHello. All rights reserved.</p>
         <p>Product visuals on this site use demo data and prototype concepts.</p>
       </div>
     </footer>

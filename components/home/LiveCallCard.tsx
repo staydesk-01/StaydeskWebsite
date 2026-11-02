@@ -8,11 +8,11 @@ import { DemoBadge } from "@/components/ui/DemoBadge";
 const STEPS = [
   { status: "Incoming call", handler: "Front desk", intent: "Detecting…", t: 0 },
   { status: "Team busy, routing", handler: "Front desk", intent: "Detecting…", t: 6 },
-  { status: "StayDesk answered", handler: "StayDesk", intent: "Listening…", t: 11 },
-  { status: "Understanding request", handler: "StayDesk", intent: "Appointment Request", t: 19 },
-  { status: "Checking availability", handler: "StayDesk", intent: "Appointment Request", t: 29 },
-  { status: "Completing request", handler: "StayDesk", intent: "Appointment Request", t: 41 },
-  { status: "Team updated", handler: "StayDesk", intent: "Appointment Request", t: 48 },
+  { status: "TrulyHello answered", handler: "TrulyHello", intent: "Listening…", t: 11 },
+  { status: "Understanding request", handler: "TrulyHello", intent: "Appointment Request", t: 19 },
+  { status: "Checking availability", handler: "TrulyHello", intent: "Appointment Request", t: 29 },
+  { status: "Completing request", handler: "TrulyHello", intent: "Appointment Request", t: 41 },
+  { status: "Team updated", handler: "TrulyHello", intent: "Appointment Request", t: 48 },
 ] as const;
 
 const ACTIONS = [
@@ -41,7 +41,7 @@ export function LiveCallCard({ className = "" }: { className?: string }) {
   const live = step >= 2;
 
   return (
-    <div className={`glass w-full max-w-[400px] rounded-3xl p-5 shadow-[0_24px_80px_rgba(0,0,0,.5)] ${className}`} role="img" aria-label="Illustration of a live call being handled by StayDesk (demo)">
+    <div className={`glass w-full max-w-[400px] rounded-3xl p-5 shadow-[0_24px_80px_rgba(0,0,0,.5)] ${className}`} role="img" aria-label="Illustration of a live call being handled by TrulyHello (demo)">
       <div className="mb-4 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <span className="relative grid size-8 place-items-center rounded-full bg-brass/20 text-brass-soft">
@@ -57,7 +57,7 @@ export function LiveCallCard({ className = "" }: { className?: string }) {
         <div><dt className="text-[0.7rem] uppercase tracking-wider text-mist/50">Caller</dt><dd className="mt-0.5 font-medium">+1 ••• ••• 4821</dd></div>
         <div><dt className="text-[0.7rem] uppercase tracking-wider text-mist/50">Timer</dt><dd className="mt-0.5 font-medium tabular-nums">{fmt(cur.t)}</dd></div>
         <div><dt className="text-[0.7rem] uppercase tracking-wider text-mist/50">Intent</dt><dd className="mt-0.5 font-medium transition-colors">{cur.intent}</dd></div>
-        <div><dt className="text-[0.7rem] uppercase tracking-wider text-mist/50">Handled by</dt><dd className={`mt-0.5 font-medium ${cur.handler === "StayDesk" ? "text-brass-soft" : ""}`}>{cur.handler}</dd></div>
+        <div><dt className="text-[0.7rem] uppercase tracking-wider text-mist/50">Handled by</dt><dd className={`mt-0.5 font-medium ${cur.handler === "TrulyHello" ? "text-brass-soft" : ""}`}>{cur.handler}</dd></div>
       </dl>
 
       <div className="mt-4 flex items-center justify-between rounded-xl bg-ink/50 px-3.5 py-2.5">

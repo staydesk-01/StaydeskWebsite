@@ -6,7 +6,7 @@ const ITEMS = [
   { icon: Eye, t: "See every call", d: "Who called, what they needed and how it ended." },
   { icon: BellRing, t: "Get the right alerts", d: "Urgent calls and requests reach you immediately." },
   { icon: FileText, t: "Read the summary", d: "Short call summaries and reports instead of recordings to replay." },
-  { icon: ShieldCheck, t: "Stay in control", d: "You set what StayDesk can say and do." },
+  { icon: ShieldCheck, t: "Stay in control", d: "You set what TrulyHello can say and do." },
 ];
 
 export function OwnerVisibility() {

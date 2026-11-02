@@ -2,10 +2,10 @@ import { Section } from "@/components/ui/Section";
 import { Reveal } from "@/components/ui/Reveal";
 import { WORKFLOW_STEPS } from "@/lib/content";
 
-export function HowItWorks({ id = "how-it-works", title = "Your team first. StayDesk when it counts." }: { id?: string; title?: string }) {
+export function HowItWorks({ id = "how-it-works", title = "Your team first. TrulyHello when it counts." }: { id?: string; title?: string }) {
   return (
-    <Section id={id} eyebrow="How StayDesk works" title={title}
-      intro="StayDesk sits behind your team, not in front of it. It steps in only when the call would otherwise go unanswered.">
+    <Section id={id} eyebrow="How TrulyHello works" title={title}
+      intro="TrulyHello sits behind your team, not in front of it. It steps in only when the call would otherwise go unanswered.">
       <ol className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
         {WORKFLOW_STEPS.map((s, i) => (
           <Reveal key={s.title} delay={(i % 3) * 0.08}>
